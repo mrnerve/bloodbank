@@ -153,7 +153,7 @@ if(isset($_POST['Giris'])){
 									</tr>
 										<tr> 
 											<td>Adres</td>
-											<td><textarea cols="25" rows="5" name="adres" class="form-control" ></textarea required></td>
+											<td><textarea cols="25" rows="5" name="adres" class="form-control" style="resize:none;" ></textarea required></td>
 										</tr>
 									<tr>
 										<td colspan="2"><input type="submit" name="Gonder" id="buton">
