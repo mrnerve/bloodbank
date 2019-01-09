@@ -1,0 +1,29 @@
+
+
+CREATE TABLE `slider` (
+  `slider_id` int(11) NOT NULL,
+  `slider_aciklama` varchar(255) CHARACTER SET utf8 NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_turkish_ci;
+
+-- --------------------------------------------------------
+
+--
+-- Tablo için tablo yapısı `uyegiris`
+--
+
+
+CREATE TABLE `yardim` (
+  `yardim_id` int(11) NOT NULL,
+  `yardim_Aciklama` text COLLATE utf8_turkish_ci NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_turkish_ci;
+
+--
+-- Tablo döküm verisi `yardim`
+--
+
+INSERT INTO `yardim` (`yardim_id`, `yardim_Aciklama`) VALUES
+(1, '1) İslemleriniz için kayıt olunuz. \r\n\r\n'),
+(2, '2) Acil kan aramak istiyorsanız:\r\nKan arama sayfasına gidiniz ve oradaki bilgileri doldurunuz. '),
+(3, '3)Sizlere bildirim geldiğini e-mail adresinizden kontrol edebilirsiniz.'),
+(4, '4)İhtiyaç olduğunuz veya ihtiyaç duyulan kan aramalarını Duyurular kısmında görebilirsiniz.'),
+(5, '5) Bizlere ulaşmak için sosyal medya adreslerimizden: Instagram, Twitter, Facebook, Whatsapp veya gmail adresimiz olan  info.kanmerkezi@gmail.com \'dan ulaşabilirsiniz.');
